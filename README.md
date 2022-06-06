@@ -1,6 +1,21 @@
 # learning_java
 
+structure of code
+```java
 
+import java.util.*; // import additional functionality if needed
+
+// filename = class name
+public class Main {
+    // main class for every class
+    public static void main(String[] args) {
+        // code here
+        
+    }
+
+
+}
+```
 # Output
 
 ```java
