@@ -48,6 +48,14 @@ Scanner scn = new Scanner(System.in);
 int number = scn.nextInt();
 ```
 
+```java
+scn.nextInt();      // get an int
+scn.nextFloat();    // get a float
+scn.next();         // get a word
+scn.nextLine();     // get a string
+scn.hasNextInt();   // check if input is an int or not
+```
+
 # Variable
 
 Used to store data 
@@ -98,6 +106,24 @@ boolean - depends on jvm
 ```
 Non Primitive -> user defined       
 
+# Get input from user and print on terminal
 
+
+```java
+
+import java.util.Scanner;
+public class Main{
+
+    public static void main(String[] args) {
+    
+        Scanner scn = new Scanner(System.in);
+        int number = scn.nextInt();
+        System.out.println("You entered - " + number());
+        
+    }
+    
+}
+
+```
        
        
