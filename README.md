@@ -1,6 +1,9 @@
 # learning_java
 
-structure of code
+Note - This is just for reference if you need any help or find mistakes feel free to correct or contact me.
+Thank You
+
+Structure of code
 ```java
 
 import java.util.*; // import additional functionality if needed
