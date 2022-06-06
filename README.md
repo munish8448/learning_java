@@ -1,7 +1,7 @@
 # learning_java
 
 
-#Output
+# Output
 
 ```java
 
@@ -9,14 +9,14 @@ System.out.println("Hello");
 
 ```
 
-#Comments
+# Comments
 ignored by programm 
 
 ```java
 // this is a commetn
 ```
 
-#Input 
+# Input 
 
 Need to use Scanner class 
 
@@ -33,7 +33,7 @@ Scanner scn = new Scanner(System.in);
 int number = scn.nextInt();
 ```
 
-#Variable
+# Variable
 
 Used to store data 
 
@@ -82,5 +82,7 @@ boolean - depends on jvm
  
 ```
 Non Primitive -> user defined       
+
+
        
        
