@@ -1,7 +1,7 @@
 # learning_java
 
 
-#1. Output
+#Output
 
 ```java
 
@@ -9,14 +9,14 @@ System.out.println("Hello");
 
 ```
 
-#1. Comments
+#Comments
 ignored by programm 
 
 ```java
 // this is a commetn
 ```
 
-#1. Input 
+#Input 
 
 Need to use Scanner class 
 
@@ -33,7 +33,7 @@ Scanner scn = new Scanner(System.in);
 int number = scn.nextInt();
 ```
 
-#1. Variable
+#Variable
 
 Used to store data 
 
@@ -43,6 +43,7 @@ Primitive and Non-Primitive
 
 Primmitive 
 
+```
 byte - Takes 1 byte 
        Range -> -128 to 127
        Default value = 0
@@ -78,7 +79,8 @@ char - Takes 2 byte
 boolean - depends on jvm 
           Value can be -> true or false  
           Default value = false      
-       
+ 
+```
 Non Primitive -> user defined       
        
        
