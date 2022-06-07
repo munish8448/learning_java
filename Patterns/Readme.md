@@ -24,7 +24,7 @@
 *   *   *   *
 *   *   *   *   *
 ```
-## invertedTriangle(int rows){
+## invertedTriangle
 ```
 *   *   *   *   *
 *   *   *   *
