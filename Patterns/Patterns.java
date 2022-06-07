@@ -2,7 +2,7 @@ public class Patterns {
   
     //-----------------------------------------rectangle ----------------------------------------------------------
     static void rectangle(int rows, int col){
-        //      rows = columns  
+        
         
         //      *   *   *   *   *   *
         //      *   *   *   *   *   *
@@ -27,7 +27,7 @@ public class Patterns {
     //----------------------------------------- hollow rectangle ----------------------------------------------------------
     static void hollowRect(int rows, int col){
 
-        //      rows = columns
+    
 
         //      *   *   *   *   *   *
         //      *                   *
