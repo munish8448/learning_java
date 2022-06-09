@@ -129,5 +129,119 @@ public class Main{
 }
 
 ```
-       
+# Control Flow Statements
+
+### if 
+```java
+if(condition) {    
+   //code   
+} 
+```
+### if else
+```java
+if(condition) {    
+    //code   
+}  
+else{  
+    //code  
+}  
+```
+### if else if
+```java
+if(condition 1) {    
+    // code   
+}  
+else if(condition 2) {  
+    // code  
+}  
+else {  
+    // code     
+}  
+```
+### Nested if else
+```java
+if(condition 1) {    
+    //code 
+    if(condition 2) {  
+        // code   
+    }  
+    else{  
+        // code   
+    }  
+}  
+```
+### Switch Case
+
+```java
+switch (var){  
+    case c1:
+        // code
+        break;
+    .  
+    .  
+    .  
+    case cn:
+        // code
+        break;
+    default:  
+        // code  
+}  
+```
+
+### Enhanced Switch
+#### Supports multiple values per case
+```java
+switch (var) {
+    case 001, 002, 003 :        
+        // 001 -> Washing Machine
+        // 002 -> AC
+        // 003 -> Heater
+        System.out.println("High Power Devices");
+        break;
+        
+    case 004, 005:
+        // 004 -> Mobile Phone
+        // 005 -> LEDs
+        System.out.println("Low power Devices");
+        break;
+}
+
+```
+#### yield is used to return a value. New keyword returns value from a branch. Break is not needed.
+    
+```java
+int val = switch (val) {
+    case "x", "y" :
+        yield 1;
+    case "z", "w" :
+        yield 2;
+}
+```
+
+####  Switch can be used as an expression
+
+```java
+String text = switch (itemCode) {
+    case 001 : 
+        yield "Washing Machine";
+    case 002 :
+        yield "AC";        
+    case 003 :
+        yield "Heater";
+    default :
+        throw new IllegalArgumentException(itemCode + "is an unknown device!");
+}
+```
+#### Switch with arrows 
+```java
+switch (var) {
+    case 001 -> //code
+    case 002 -> //code
+    case 003,004 -> {     // code
+                          // code
+                          // code
+                     }
+    default -> //code
+}
+```
        
