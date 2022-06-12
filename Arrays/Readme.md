@@ -3,7 +3,9 @@
 One-dimensional array declaration 
 
 type var-name[];
+
 OR
+
 type[] var-name;
 
 ```java
