@@ -15,7 +15,7 @@ int[] numArray;
 ```
 
 ```java
-int numArray];    //declaring array
+int numArray;    //declaring array
 numArray = new int[5];  // allocating memory to array
 
 or 
